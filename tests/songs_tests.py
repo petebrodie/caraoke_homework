@@ -6,9 +6,22 @@ from tests.song_test import TestSong
 
 class TestSongs (unittest.TestCase):
     def setUp(self):
-        self.song_1 = Song("Wonderwall")
-        self.song_2 = Song("Mr Brightside")
-        self.song_3 = Song("Sweet child of mine")
+        song_1 = song("Hey Ya!", "Pop")
 
-    def test_add_songs_to_rooms(self):
-        self.assertEqual("Wonderwall", self.append.room_number_1)
+    def test_song_has_name(self):
+        self.assertEqual("Hay Ya!", self.song_1.name)
+
+    def test_song_has_genre(self):
+        self.assertEqual("Pop", self.song_1.genre)
+        
+        
+        
+        
+        
+        
+    #     self.song_1 = Song("Wonderwall")
+    #     self.song_2 = Song("Mr Brightside")
+    #     self.song_3 = Song("Sweet child of mine")
+
+    # def test_add_songs_to_rooms(self):
+    #     self.assertEqual("Wonderwall", self.append.room_number_1)
