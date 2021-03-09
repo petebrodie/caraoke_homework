@@ -1,8 +1,7 @@
 class Guest:
 
-    def __init__(self, name, song):
+    def __init__(self, name):
         self.name = name
 
-    def add_guest(self, name)
-    self.name.append(name)
+
         
